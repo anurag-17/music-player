@@ -1,0 +1,56 @@
+
+<div class="row row-section-one">
+
+
+  
+  <div class="col-md-8 ml-sm-auto col-xs-12 col-left-top">
+    <div class="upper_box border_box d-flex align-items-center p-0">
+
+   
+  <img src="images/image.jpg">
+  <div class="inner-right">
+  <h1>GRANDPA TYLERâ€™S STORYTIME (THUNDERBIRDS)</h1>
+  <p><img src="images/icon-player.png"><a href="#">Name Of The Album</a></p>
+  </div>
+</div>
+  </div>
+
+
+
+
+  <div class="col-md-4 ml-sm-auto col-xs-12s col-right-top">
+    <div class="border_box ">
+  <h1>Take Control Of The Radio</h1>
+  <p>Listen offline, unlimited skips, save and 
+play, songs from the radio</p>
+  <a href="#">Start Your 14 Days Trial</a>
+</div>
+ </div>
+  </div>
+
+
+<div class="Stations_loop mb-3" ng-repeat="mySong in mySongs">
+
+    <h2 class="row-two-title"> {{ mySong.title }} </h2>
+     <div class="row1 row-section-two">
+       <div class="col-md-12">
+         <slick class="slider" settings="slickConfig" ng-if="slickConfig1Loaded" dots="true">
+    <div class="col-left-one"  ng-repeat="program in mySong.albums" >
+      <a href="#!/albums/{{ program.id }}" ng-click="get_id(program.id)">
+       <div class="border_box">
+
+      <img ng-src="{{ program.image }}">
+          <h3>{{ program.title }}</h3>
+          <div class="title-song">
+       <img src="images/icon-player-mini.png"> <div class="title_right"> <span>{{ program.description }}</span>
+       <div class="rating">
+        <i class="icon ion-android-star" style="width: {{ program.rating_avg *20  }}%"></i><i class="icon ion-android-star-outline"></i></div>
+    </div>
+  </div>
+  </div>
+</a>
+  </div>
+</slick>
+</div>
+   </div>
+  </div>

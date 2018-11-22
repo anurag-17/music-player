@@ -1,0 +1,132 @@
+{
+    "test": [{
+            "id": "4be8c04994ab4d05ba2995dc82a22074",
+            "title": "category 0",
+            "description": null,
+            "position": 0,
+            "albums": [{
+                    "id": "dbe704212ce940e792df0d310260183f",
+                    "title": "album 0 -> 0",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg",
+                    "tracks": [{
+                            "title": "album 0",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        },
+                        {
+                            "title": "album 1",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        },
+                        {
+                            "title": "album 2",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        }
+                    ]
+                },
+                {
+                    "id": "b300046597a1456b961aef18b025187d",
+                    "title": "album 0 -> 1",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg",
+                    "tracks": [{
+                            "title": "album 0",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        },
+                        {
+                            "title": "album 1",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        },
+                        {
+                            "title": "album 2",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        }
+                    ]
+                },
+                {
+                    "id": "8239e5d58ff844009611edc5f21410fd",
+                    "title": "album 0 -> 2",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg",
+                    "tracks": [{
+                            "title": "album 0",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        },
+                        {
+                            "title": "album 1",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        },
+                        {
+                            "title": "album 2",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0b699bbbd29e48d0a8fc6561d331a102",
+            "title": "category 3",
+            "description": null,
+            "position": 3,
+            "albums": [{
+                    "id": "e43a4069b8f24881be29d86f8d68efeb",
+                    "title": "album 3 -> 0",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg",
+                    "tracks": [{
+                            "title": "album 0",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        },
+                        {
+                            "title": "album 1",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        },
+                        {
+                            "title": "album 2",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        }
+                    ]
+                },
+                {
+                    "id": "1ce749463c4340e4b7616abe6dff0ddf",
+                    "title": "album 3 -> 1",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg",
+                    "tracks": [{
+                            "title": "album 0",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        },
+                        {
+                            "title": "album 1",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        },
+                        {
+                            "title": "album 2",
+                            "seconds": 336,
+                            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,250 @@
+
+<!doctype html>
+<html lang="en">
+   <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <title>Music Player</title>
+      <script>
+       document.write('<base href="' + document.location + '" />');
+     </script>
+   
+<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ionicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script src="js/angular.min.js"></script>
+     <script src="js/angular-route.js"></script>
+     <script src="js/angular-soundmanager2.js"></script>
+     <script src="js/slick.min.js"></script>
+     <script src="js/angular-slick.js"></script>
+     <script src="js/angular-strap.js"></script>
+     <script src="js/angular-strap.tpl.js"></script>
+
+     <script src="js/app.js"></script>
+     <script src="js/controller.js"></script>
+     <script src="js/service.js"></script>
+   
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <script src="js/custom.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body ng-app="myApp">
+<!--Top navigation-->
+
+<div class="full-page">
+  <sound-manager></sound-manager>
+<div class="top-dr">
+
+     <nav class="navbar navbar-dark navbar-expand-md navbar-top-section fixed-top bg-dark flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-md-2 col-sm-3  mr-0  col-xs-12" href="#"><img src="images/logomain.png"></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-center-section col-sm-6 col-xs-12 justify-content-md-center" id="navbarsExample04">
+        
+         <ul class="navbar-nav" bs-navbar>
+            <li data-match-route="/$" class="nav-item"><a class="nav-link" href="#!">Live Radio</a></li>
+            <li data-match-route="/songs" class="nav-item"><a class="nav-link" href="#!/songs">Songs</a></li>
+            <li data-match-route="/stories" class="nav-item"><a class="nav-link" href="#!/stories">Stories</a></li>
+            <li  class="nav-item"><a class="nav-link" href="#">New Releases</a></li>
+                                    
+          </ul>
+          
+        </div>
+      <ul class="navbar-nav px-3 col-sm-auto col-xs-12 right-logos">
+        <li class="nav-item text-nowrap">
+          <p>Sponsored By<img src="images/logo-header-right.png"></p>
+        </li>
+      </ul>
+</nav>
+</div>
+<!--Top navigation-->
+
+
+<!--left navigation -->
+<div class="container-fluid">
+      <div class="row justify-content-end">
+        <nav class="col-md-2 d-none d-md-block  bg-light col-xs-12 sidebar lefts-sidebar">
+          <div class="sidebar-sticky" >
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link blank-list" href="#"></a></li>
+              <li class="nav-item"><a class="nav-link active" href="#!"><img src="images/icon-home.png">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#"><img src="images/icon-library.png">Your Library</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!/rplayed">Recently Played</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Boston Artist <img src="images/icon-speaker.png" class="artist-img"></a></li>
+              
+            </ul>
+             
+            <ul class="sidebar-botom-ul">
+             <li class="nav-item"><a class="nav-link usr-list" href="#"><img src="images/user.png"> Pauljames Dimitriu</a></li>
+            </ul>
+          </div>
+        </nav>
+<!--left navigation -->
+<div class="main_section col-md-10">
+  <main role="main" class="music_section">
+  
+  
+
+
+<div ng-view></div>
+   
+  
+  </main>
+</div>
+      </div>
+    </div>
+	
+  <!--bottom navigation -->  
+   <nav class="navbar fixed-bottom navbar-light bg-light botom-menu d-none d-md-block">
+  
+
+  <div class="row fix-bottom-footer-row justify-content-between align-items-center">
+  <div class="col-md-auto col-sm-3 col-xs-11 col-bottom-left" ng-if="currentPlaying.id" ng-controller="albumController">
+  
+
+
+<div class="d-flex align-items-center">
+
+  <img ng-src="{{ currentPlaying.image }}">
+  <div class="right-col-bottom-left">
+  <h2>{{ currentPlaying.title }}</h2>
+  <p>{{ songs.description }}</p>
+
+</div>
+  </div>
+  <div class="clear"></div>
+  </div>
+   
+  <div class="col-md-auto col-sm-3 col-xs-11 col-bottom-left" ng-if="!currentPlaying.id">
+    <div class="d-flex align-items-center">
+  <img src="images/player-thumb.jpg"><div class="right-col-bottom-left">
+  <h2>Name Of The Album</h2>
+  <p>Artist (Category)</p>
+</div>
+  </div>
+  <div class="clear"></div>
+  </div>
+
+
+
+
+
+  <div class="col-md-auto col-sm-5 col-xs-8 col-bottom-middle" ng-controller="likeController">
+    <div class="player-inner">
+    <ul>
+    <li><a href="javascript:void(0);" ng-click="myunLike()"><i class="ion-thumbsdown"></i></a></li>
+    <li><a href="javascript:void(0);" prev-track><i class="ion-ios-skipbackward"></i></a></li>
+    <li class="play-pause"><a href="javascript:void(0);" play-pause-toggle data-play="<i class='icon ion-ios-play'></i>" data-pause="<i class='ion-ios-pause'></i>"><i class="ion-ios-play"></i></a></li>
+    <li><a href="javascript:void(0);" next-track><i class="ion-ios-skipforward"></i></a></li>
+    <li><a href="javascript:void(0);" ng-click="myLike()"><i class="ion-thumbsup"></i></a></li>
+    </ul>
+    <div class="player-line"><span class="player-position">{{currentPostion}}</span>
+      <span class="nprogress" seek-track>
+         <span><span class="fill" ng-style="{left : ( progress + '%' ) }"></span></span>
+      </span>
+         <span class="player-position">{{currentDuration}}</span></div>
+    </div>           
+  </div>  
+  
+  
+  <div class="col-md-auto col-sm-3 col-sm-auto col-bottom-last">
+  <div class="player-line">
+  
+
+
+    <a href="javascript:void(0);" mute-music>
+       <span ng-if="mute"><i class="ion-android-volume-off"></i></span>
+       <span ng-if="!mute">
+       <i class="ion-android-volume-up"></i>
+      </span>
+
+     </a>
+       
+    
+<input type="range" min="1" max="100" value="{{ volume }}" ng-change="myFunc()"  ng-model="volume" class="rangeslider" id="myRange" volume-custome>
+  
+    </div>
+
+  </div>
+  
+</nav> 
+    
+
+<!----mobile ---->
+
+<nav class="navbar fixed-bottom navbar-light bg-light botom-menu d-block  d-md-none">
+  
+  <div class="row  justify-content-sm-between">
+  <div class="col-md-2 col-sm-auto col-xs-11 col-bottom-left-mb" ng-if="currentPlaying.id">
+    <div class="media align-items-center" ng-controller="albumController">
+  <img ng-src="{{ currentPlaying.image }}" class="mr-3"><div class="right-col-bottom-left">
+   <h2>{{ currentPlaying.title }} .</h2>
+  <p>{{ songs.description }}</p>
+</div>
+  </div>
+  
+  </div>
+
+  
+
+   
+  <div class="col-md-2 col-sm-auto col-xs-11 col-bottom-left-mb" ng-if="!currentPlaying.id">
+    <div class="media align-items-center">
+  <img src="images/player-thumb.jpg" class="mr-3"><div class="right-col-bottom-left">
+   <h2>Name Of The Album</h2>
+     <p>Artist (Category)</p>
+  </div>
+</div>
+  </div>
+    
+  
+
+
+
+
+  <div class="col-md-6 col-sm-auto col-xs-8 col-bottom-middle d-flex align-items-center pr-5">
+    <div class="player-inner">
+    <ul>
+    
+ 
+    <li class="play-pause"><a href="javascript:void(0);" play-pause-toggle data-play="<i class='icon ion-ios-play'></i>" data-pause="<i class='ion-ios-pause'></i>"><i class="ion-ios-play"></i></a></li>
+   
+    
+    </ul>
+ 
+    </div>
+  </div>
+   
+  
+
+  
+</nav> 
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<div class="track-section gradient-bg" >
+   <div class="track-section-inner">
+<div class="row">
+   <div class="col-md-3">
+      <div class="track_left text-center">
+          
+          <h2 class="mb-3">Recently Songs</h2>
+          
+          <a href="javascript:void(0);" play-all="recentongs" class="btn btn-success text-uppercase">play All</a>
+
+                      
+          <div class="track-library">
+             <span class="stub">Save to your <br/>Library</span>
+            <i class="icon ion-ios-more"></i>
+          </div>
+      </div>
+   </div>
+   <div class="col-md-9">
+      <div class="track_right pl-4">
+        <div class="track_list">
+            <ul class="list-unstyled">
+                <li music-player="play" add-song="x" ng-repeat="x in recentongs" >
+                   
+                  <span class="song-title">
+                  <i class="icon ion-ios-musical-note"></i>{{x.title}}</span>
+                  <span class="song-second">{{x.seconds | secondsToDateTime | date:'mm:ss'}}</span>
+                </li>
+                
+
+            </ul>
+        </div>
+      </div>
+   </div>
+</div>
+</div>
+</div>

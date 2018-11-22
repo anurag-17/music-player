@@ -1,0 +1,39 @@
+
+
+{{param1}} {{param2}}
+
+{{songs[param1][param2].name }}
+<div class="track-section gradient-bg">
+   <div class="track-section-inner">
+<div class="row">
+   <div class="col-md-3">
+      <div class="track_left text-center">
+          <img ng-src="{{ albums.image }}">
+          <h2>{{ albums.title }}</h2>
+          <h3>{{ albums.description }}</h3>
+          <h4>1978 . Songs</h4>
+          <a href="#" class="btn btn-success text-uppercase">play</a>
+          <div class="track-library">
+             <span class="stub">Save to your <br/>Library</span>
+            <i class="icon ion-ios-more"></i>
+          </div>
+      </div>
+   </div>
+   <div class="col-md-9">
+      <div class="track_right pl-4">
+        <div class="track_list">
+            <ul class="list-unstyled">
+                <li music-player="play" add-song="x" ng-repeat="x in albums.tracks" >
+                  <span class="song-title">
+                  <i class="icon ion-ios-musical-note"></i>{{ x.title }}</span>
+                  <span class="song-second">{{ x.seconds/60 }}</span>
+                </li>
+                
+
+            </ul>
+        </div>
+      </div>
+   </div>
+</div>
+</div>
+</div>

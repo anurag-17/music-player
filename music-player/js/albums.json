@@ -1,0 +1,59 @@
+{
+    "id": "dbe704212ce940e792df0d310260183f",
+    "title": "album 0 -> 0",
+    "description": "test1",
+    "rating_avg": 0,
+    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg",
+    "tracks": [
+        {
+            "title": "album 0",
+            "seconds": 336,
+            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+        },
+        {
+            "title": "album 1",
+            "seconds": 336,
+            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+        },
+        {
+            "title": "album 2",
+            "seconds": 336,
+            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+        },
+        {
+            "title": "album 3",
+            "seconds": 336,
+            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+        },
+        {
+            "title": "album 4",
+            "seconds": 336,
+            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+        },
+        {
+            "title": "album 5",
+            "seconds": 336,
+            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+        },
+        {
+            "title": "album 6",
+            "seconds": 336,
+            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+        },
+        {
+            "title": "album 7",
+            "seconds": 336,
+            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+        },
+        {
+            "title": "album 8",
+            "seconds": 336,
+            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+        },
+        {
+            "title": "album 9",
+            "seconds": 336,
+            "url": "https:\/\/d33ggf35ie1dm.cloudfront.net\/https:\/\/d33ggf35ie1dm.cloudfront.net\/0_gb\/0_gb73sxks\/1520831899_480.mp4"
+        }
+    ]
+}

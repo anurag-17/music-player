@@ -1,0 +1,139 @@
+{
+    "genres": [
+        {
+            "id": "3031da26a91f4ff282c2dd76a99e4ed0",
+            "title": "category 0",
+            "description": null,
+            "position": 0,
+            "albums": [
+                {
+                    "id": "3b9b0d4421564770883903382c0c1056",
+                    "title": "album 0 -> 0",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "34ae86457ae347af8caf685ee07e569b",
+                    "title": "album 0 -> 1",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "d75def10803e4096869d8d0d461d1654",
+                    "title": "album 0 -> 2",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "01c6dc7e563f40c09159c51a017779d8",
+                    "title": "album 0 -> 3",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "6b3121aacfe3499aa90ba061a54a7dac",
+                    "title": "album 0 -> 4",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "6a32d03f08d0481cb0c0d4633d5e9771",
+                    "title": "album 0 -> 5",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "60e354fc913d46c0a8c715764cb60e53",
+                    "title": "album 0 -> 6",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "efd09eacd3b1448abb5b2014f70b2a02",
+                    "title": "album 0 -> 7",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "\/covers\/553\/1427317667.jpg"
+                }
+            ]
+        },
+        {
+            "id": "49d83466964e4ed49e941f849d2521ed",
+            "title": "category 1",
+            "description": null,
+            "position": 1,
+            "albums": [
+                {
+                    "id": "3b9b0d4421564770883903382c0c1056",
+                    "title": "album 0 -> 0",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "\/covers\/553\/1427317667.jpg"
+                }
+            ]
+        },
+        {
+            "id": "2dd15f20e57a4bda90c1a2b96b1560f7",
+            "title": "category 2",
+            "description": null,
+            "position": 2,
+            "albums": []
+        },
+        {
+            "id": "c8b50dae7f244c3cb003cc0fdeb066dd",
+            "title": "category 3",
+            "description": null,
+            "position": 3,
+            "albums": []
+        },
+        {
+            "id": "94bea498aab749faaff504917b1857ec",
+            "title": "category 4",
+            "description": null,
+            "position": 4,
+            "albums": []
+        },
+        {
+            "id": "e79cb0ed3b1447dea6e96ab9c2a175d7",
+            "title": "category 5",
+            "description": null,
+            "position": 5,
+            "albums": []
+        },
+        {
+            "id": "3ff1ae352f93450baea8b72a8503aa1f",
+            "title": "category 6",
+            "description": null,
+            "position": 6,
+            "albums": []
+        },
+        {
+            "id": "71c0021e784e49e69100e2afc44b916d",
+            "title": "category 7",
+            "description": null,
+            "position": 7,
+            "albums": []
+        },
+        {
+            "id": "8a5e7f428a094e9dabd512a06691002e",
+            "title": "category 8",
+            "description": null,
+            "position": 8,
+            "albums": []
+        },
+        {
+            "id": "b038fd0448314c3db77ad38634be03b4",
+            "title": "category 9",
+            "description": null,
+            "position": 9,
+            "albums": []
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+[
+            {
+                "id": "one",
+                "title": "Rock Workout Radio",
+                "description": "By The Way",
+                "rating_avg":"0.0",
+                "image": "images/image2.jpg" 
+                             
+            },
+            {
+                "id": "two",
+                "title": "Rock Workout Radio",
+                "description": "By The Way",
+                "rating_avg":"2.5",
+                "image": "images/image3.jpg"
+             
+             },
+            {
+                "id": "three",
+                "title": "Rock Workout Radio",
+                "description": "By The Way",
+                "rating_avg":"3.0",
+                "image": "images/image4.jpg"
+          
+            },
+            {
+                "id": "four",
+                "title": "Rock Workout Radio",
+                "description": "By The Way",
+                "rating_avg":"5.0",
+                "image": "images/image5.jpg"
+            
+            }
+         
+        ]

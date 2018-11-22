@@ -1,0 +1,369 @@
+{
+    "genres": [
+        {
+            "id": "4be8c04994ab4d05ba2995dc82a22074",
+            "title": "category 0",
+            "description": null,
+            "position": 0,
+            "albums": [
+                {
+                    "id": "dbe704212ce940e792df0d310260183f",
+                    "title": "album 0 -> 0",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "b300046597a1456b961aef18b025187d",
+                    "title": "album 0 -> 1",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "8239e5d58ff844009611edc5f21410fd",
+                    "title": "album 0 -> 2",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "50f4c1e39a1d453ea8b72a01bb4cfe8b",
+                    "title": "album 0 -> 3",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "2e67a35892004d009b7a3114cb0faaca",
+                    "title": "album 0 -> 4",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "57c131c14ce04207897028145412829c",
+                    "title": "album 0 -> 5",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "1d979f3af44c4e3f84910a21e98e21b0",
+                    "title": "album 0 -> 6",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "2bca6f56789243848fdb44e9012647eb",
+                    "title": "album 0 -> 7",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                }
+            ]
+        },
+        {
+            "id": "0b699bbbd29e48d0a8fc6561d331a102",
+            "title": "category 3",
+            "description": null,
+            "position": 3,
+            "albums": [
+                {
+                    "id": "e43a4069b8f24881be29d86f8d68efeb",
+                    "title": "album 3 -> 0",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "1ce749463c4340e4b7616abe6dff0ddf",
+                    "title": "album 3 -> 1",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "7ae7f839432d4677ae8080556f7c1000",
+                    "title": "album 3 -> 2",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "156f24c6e24848f092c83b2d846663c6",
+                    "title": "album 3 -> 3",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "0ad192003590498c86b2418347961d80",
+                    "title": "album 3 -> 4",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                }
+            ]
+        },
+        {
+            "id": "871a2da504a84a5a959956a88fbfbc94",
+            "title": "category 4",
+            "description": null,
+            "position": 4,
+            "albums": [
+                {
+                    "id": "e43a4069b8f24881be29d86f8d68efeb",
+                    "title": "album 3 -> 0",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "1ce749463c4340e4b7616abe6dff0ddf",
+                    "title": "album 3 -> 1",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "7ae7f839432d4677ae8080556f7c1000",
+                    "title": "album 3 -> 2",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "156f24c6e24848f092c83b2d846663c6",
+                    "title": "album 3 -> 3",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "0ad192003590498c86b2418347961d80",
+                    "title": "album 3 -> 4",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                }
+            ]
+        },
+        {
+            "id": "c0a177e1213547d49953ac7717f4f367",
+            "title": "category 5",
+            "description": null,
+            "position": 5,
+            "albums": [
+                {
+                    "id": "e43a4069b8f24881be29d86f8d68efeb",
+                    "title": "album 3 -> 0",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "1ce749463c4340e4b7616abe6dff0ddf",
+                    "title": "album 3 -> 1",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "7ae7f839432d4677ae8080556f7c1000",
+                    "title": "album 3 -> 2",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "156f24c6e24848f092c83b2d846663c6",
+                    "title": "album 3 -> 3",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "0ad192003590498c86b2418347961d80",
+                    "title": "album 3 -> 4",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                }
+            ]
+        },
+        {
+            "id": "60eeed5399c0416a94596034b0f415d4",
+            "title": "category 6",
+            "description": null,
+            "position": 6,
+            "albums": [
+                {
+                    "id": "e43a4069b8f24881be29d86f8d68efeb",
+                    "title": "album 3 -> 0",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "1ce749463c4340e4b7616abe6dff0ddf",
+                    "title": "album 3 -> 1",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "7ae7f839432d4677ae8080556f7c1000",
+                    "title": "album 3 -> 2",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "156f24c6e24848f092c83b2d846663c6",
+                    "title": "album 3 -> 3",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "0ad192003590498c86b2418347961d80",
+                    "title": "album 3 -> 4",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                }
+            ]
+        },
+        {
+            "id": "5a384a0ab39840618aca90519eb92374",
+            "title": "category 7",
+            "description": null,
+            "position": 7,
+            "albums": [
+                {
+                    "id": "e43a4069b8f24881be29d86f8d68efeb",
+                    "title": "album 3 -> 0",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "1ce749463c4340e4b7616abe6dff0ddf",
+                    "title": "album 3 -> 1",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "7ae7f839432d4677ae8080556f7c1000",
+                    "title": "album 3 -> 2",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "156f24c6e24848f092c83b2d846663c6",
+                    "title": "album 3 -> 3",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "0ad192003590498c86b2418347961d80",
+                    "title": "album 3 -> 4",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                }
+            ]
+        },
+        {
+            "id": "a6dc459128d14c7bb6a93b6134eee330",
+            "title": "category 8",
+            "description": null,
+            "position": 8,
+            "albums": [
+                {
+                    "id": "e43a4069b8f24881be29d86f8d68efeb",
+                    "title": "album 3 -> 0",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "1ce749463c4340e4b7616abe6dff0ddf",
+                    "title": "album 3 -> 1",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "7ae7f839432d4677ae8080556f7c1000",
+                    "title": "album 3 -> 2",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "156f24c6e24848f092c83b2d846663c6",
+                    "title": "album 3 -> 3",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "0ad192003590498c86b2418347961d80",
+                    "title": "album 3 -> 4",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                }
+            ]
+        },
+        {
+            "id": "991d8dd278054e5382dd2ebb2023dac3",
+            "title": "category 9",
+            "description": null,
+            "position": 9,
+            "albums": [
+                {
+                    "id": "e43a4069b8f24881be29d86f8d68efeb",
+                    "title": "album 3 -> 0",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "1ce749463c4340e4b7616abe6dff0ddf",
+                    "title": "album 3 -> 1",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "7ae7f839432d4677ae8080556f7c1000",
+                    "title": "album 3 -> 2",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "156f24c6e24848f092c83b2d846663c6",
+                    "title": "album 3 -> 3",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                },
+                {
+                    "id": "0ad192003590498c86b2418347961d80",
+                    "title": "album 3 -> 4",
+                    "description": "test1",
+                    "rating_avg": 0,
+                    "image": "https:\/\/d25xdrj7gd7wz1.cloudfront.net\/covers\/553\/1427317667.jpg"
+                }
+            ]
+        }
+    ]
+}
